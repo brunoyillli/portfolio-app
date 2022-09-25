@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+    --primary-color: #1E90FF;
+    --primary-shadow: #18505d;
+    --secundary-color: #F0F8FF;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; }

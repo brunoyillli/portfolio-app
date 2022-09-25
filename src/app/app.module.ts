@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { PortfolioModule } from './portfolio/portfolio.module';
 
 
 @NgModule({
@@ -16,8 +17,9 @@ import {MatIconModule} from '@angular/material/icon';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatIconModule, 
     MatToolbarModule,
-    MatIconModule
+    PortfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

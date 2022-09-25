@@ -1,0 +1,104 @@
+.mainDiv{
+    height: 100%;
+    width: 100%;
+}
+.topDiv{
+    justify-content: center;
+}
+.titulo{
+    font-size: 45px;
+    color: var(--primary-color);
+    text-shadow: 1px 1px 2px var(--primary-shadow), 1px 1px 10px;
+}
+.areaContentDiv{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.socialDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.subTitle{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 20px;
+}
+
+.hrConfig{
+    height: 1px;
+    width: 100%;
+}
+
+img{
+    width: 67px;
+}
+img:hover{
+    filter: invert(27%)
+            sepia(51%)
+            saturate(2878%)
+            hue-rotate(346deg)
+            brightness(104%)
+            contrast(97%);
+}
+.mainContentDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.empregosDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.emprego{  
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    width: 280px;
+    height: auto;
+    background-color: var(--secundary-color);
+    color: var(--primary-color);
+}
+
+@media only screen and (min-width: 1080px){
+
+    .areaContentDiv{
+      flex-direction: row;
+    }
+
+    .socialDiv{
+        justify-content: flex-start;
+        width: 15%;
+        padding-top: 5%;
+    }
+
+    .icons{
+        flex-direction: column;
+    }
+
+    .topDiv{
+        position: relative;
+    }
+  }
+  @media(max-width: 420px){ 
+    .titulo{
+        font-size: 30px;
+    }
+  }
+
